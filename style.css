@@ -1,22 +1,25 @@
- 
-canvas
-{
-    width:360px;
-    height: 250px;
-    border:1px solid grey;
-    background-color: gainsboro;
+.travel_mainDiv img{
+width:100%;
+height:300px;
 }
-img
-{
-    width: 150px;
-    border-radius: 100px;
+.travel_mainDiv hr{
+width:100%;
 }
-#textbox
-{
-    width: 300px;
+.travel_mainDiv h5, travel_mainDiv p{
+margin-left:20px;
 }
-body{
-  text-align:center;
+.row:: after{
+content:"";
+clear:both;
+display:table;
 }
-
-
+.travel_mainDiv{
+flaot:left;
+wodth:33.33%;
+padding:5px;
+border:1px solid #c7c7c7;
+}
+#footer{
+height:20px;
+background-color:white;
+}
